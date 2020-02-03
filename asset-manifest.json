@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.10098e41.chunk.css",
+    "main.js": "/portfolio/static/js/main.32e94f61.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.32e94f61.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.44087e9b.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.44087e9b.js.map",
+    "static/js/2.c18f359e.chunk.js": "/portfolio/static/js/2.c18f359e.chunk.js",
+    "static/js/2.c18f359e.chunk.js.map": "/portfolio/static/js/2.c18f359e.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.26b104a6a6c1557cf01d2c530b9b4bfd.js": "/portfolio/precache-manifest.26b104a6a6c1557cf01d2c530b9b4bfd.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.10098e41.chunk.css.map": "/portfolio/static/css/main.10098e41.chunk.css.map",
+    "static/js/2.c18f359e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c18f359e.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/portfolio/static/media/roboto-condensed.light.cf4449c1.ttf",
+    "static/media/email_icon.png": "/portfolio/static/media/email_icon.fd99f8e3.png",
+    "static/media/github_icon.png": "/portfolio/static/media/github_icon.e2a62886.png",
+    "static/media/linkedin_icon.png": "/portfolio/static/media/linkedin_icon.56ab00e8.png",
+    "static/media/project1.png": "/portfolio/static/media/project1.bf56edc6.png",
+    "static/media/twitter_icon.png": "/portfolio/static/media/twitter_icon.512536cb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44087e9b.js",
+    "static/js/2.c18f359e.chunk.js",
+    "static/css/main.10098e41.chunk.css",
+    "static/js/main.32e94f61.chunk.js"
+  ]
+}
