@@ -1,0 +1,45 @@
+.track {
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  margin: 20px;
+  position: relative;
+  transition: 0.3s;
+}
+
+.track-image {
+  width: 250px;
+  height: 250px;
+  z-index: -999;
+}
+
+.track-image:hover {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.track-text {
+  background-color: black !important;
+  color: white !important;
+  padding: 5px !important;
+  position: absolute !important;
+  width: 250px !important;
+  bottom: 0px !important;
+  opacity: 0.7;
+  z-index: 999;
+}
+
+.track-icon {
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  color: white;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  padding: 10px;
+  opacity: 0.8;
+}

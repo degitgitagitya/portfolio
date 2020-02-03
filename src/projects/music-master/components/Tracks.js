@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Tracks.css";
 
 export default class Tracks extends Component {
   state = { playing: false, audio: null, playingPreviewUrl: null };
