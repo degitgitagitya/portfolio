@@ -38,7 +38,7 @@ import MusicMaster from "./projects/music-master";
 import "./index.css";
 
 ReactDOM.render(
-  <Router>
+  <Router basename="/portfolio">
     <Header></Header>
     <Switch>
       <Route path="/jokes">
