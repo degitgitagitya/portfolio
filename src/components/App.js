@@ -9,7 +9,7 @@ class App extends Component {
 
   toggleDisplayBio = () => {
     this.setState({
-      displayBio: !this.state.displayBio
+      displayBio: !this.state.displayBio,
     });
   };
 
@@ -29,11 +29,15 @@ class App extends Component {
               awesome.
             </p>
             <p>Besides coding, I also love gaming!</p>
-            <button onClick={this.toggleDisplayBio}>Show Less</button>
+            <button className="btn btn-info" onClick={this.toggleDisplayBio}>
+              Show Less
+            </button>
           </div>
         ) : (
           <div>
-            <button onClick={this.toggleDisplayBio}>Read More</button>
+            <button className="btn btn-info" onClick={this.toggleDisplayBio}>
+              Read More
+            </button>
           </div>
         )}
         <hr />

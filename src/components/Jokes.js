@@ -12,16 +12,16 @@ class Jokes extends Component {
 
   componentDidMount() {
     fetch("https://official-joke-api.appspot.com/random_joke")
-      .then(response => response.json())
-      .then(json => this.setState({ joke: json }))
-      .catch(error => alert(error.message));
+      .then((response) => response.json())
+      .then((json) => this.setState({ joke: json }))
+      .catch((error) => alert(error.message));
   }
 
   fetchJokes = () => {
     fetch("https://official-joke-api.appspot.com/random_ten")
-      .then(response => response.json())
-      .then(json => this.setState({ jokes: json }))
-      .catch(error => alert(error.message));
+      .then((response) => response.json())
+      .then((json) => this.setState({ jokes: json }))
+      .catch((error) => alert(error.message));
   };
 
   render() {
@@ -31,8 +31,10 @@ class Jokes extends Component {
         <Joke key={this.state.id} joke={this.state.joke} />
         <hr />
         <h3>Want ten new jokes?</h3>
-        <button onClick={this.fetchJokes}>Click me!</button>
-        {this.state.jokes.map(joke => (
+        <button className="btn btn-success" onClick={this.fetchJokes}>
+          Click me!
+        </button>
+        {this.state.jokes.map((joke) => (
           <Joke key={joke.id} joke={joke} />
         ))}
       </div>
