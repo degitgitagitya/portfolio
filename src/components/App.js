@@ -40,10 +40,10 @@ class App extends Component {
             </button>
           </div>
         )}
+        <hr></hr>
+        <SocialProfiles />
         <hr />
         <Projects />
-        <hr />
-        <SocialProfiles />
       </div>
     );
   }

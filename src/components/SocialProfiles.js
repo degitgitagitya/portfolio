@@ -1,7 +1,7 @@
 import React from "react";
 import SOCIAL_PROFILES from "../data/socialProfiles";
 
-const SocialProfile = props => {
+const SocialProfile = (props) => {
   const { link, image } = props.socialProfile;
 
   return (
@@ -17,7 +17,7 @@ const SocialProfiles = () => (
   <div>
     <h2>Connect with me!</h2>
     <div>
-      {SOCIAL_PROFILES.map(SOCIAL_PROFILE => {
+      {SOCIAL_PROFILES.map((SOCIAL_PROFILE) => {
         return (
           <SocialProfile
             key={SOCIAL_PROFILE.id}
